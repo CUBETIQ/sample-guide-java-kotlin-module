@@ -49,6 +49,15 @@ uploadArchives {
 
 ...
 ```
+#### Publish the package
+```shell
+gradle upload
+```
+Or
+```shell
+./gradlew upload
+```
+
 #### Noted for Library Publish within GROUP ID
 - For Snapshot version must be:
 ```groovy
